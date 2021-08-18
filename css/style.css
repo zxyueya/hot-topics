@@ -1,0 +1,170 @@
+/* 
+font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto', sans-serif; 
+
+color: 
+red: #E83C05
+yellow: #FFBA00
+blue: #0514E8
+*/
+
+
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+font-family: 'Libre Baskerville', serif;
+}
+
+
+
+p {
+    font-family: 'Roboto', sans-serif; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 2rem;
+    background-color: #FFBA00;
+    padding: 2rem;
+    color: #fff;
+}
+
+footer {
+    max-width: 100%;
+    background-color: #FFBA00;
+    margin-top: 2rem;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+footer ul li {
+    list-style: none;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    color: #fff;;
+}
+
+footer p {
+    display: block;
+    padding-left: 3rem;
+    color: #fff;
+    padding-bottom: 2rem;
+}
+
+
+/***************************************************
+   Responsive Design
+***************************************************/
+/* Mobile View < 35rem */
+@media only screen and (max-width: 35rem) {
+    
+    body {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    article {
+        margin: 0 auto;
+        padding-bottom: 3rem;
+
+    }
+
+    header img {
+        margin-left: 5.5rem;
+    }
+
+    header h2 {
+        padding-bottom: 3rem;
+    }
+
+
+    h2 {
+        color: #0514E8;
+    }
+
+    article h2 {
+        text-align: center;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+}
+
+
+
+
+/* Tablet View < 80rem */
+@media only screen and (max-width: 80rem) {
+    p {
+        font-size: 1rem;
+    }
+
+}
+
+/* Desktop View < 35rem */
+@media only screen and (min-width: 81rem) {
+
+    body {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+
+    header h2 {
+        color: #0514E8;
+        margin-bottom: 4rem;
+        font-size: 2rem;
+    }
+
+    header img {
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        margin-right: 5rem;
+    }
+
+    article img {
+        max-width: 40%;
+    }
+
+    article {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 3rem;
+    }
+
+    article .content {
+        padding-left: 3rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+    
+  
+
+}
+
+
+
+
